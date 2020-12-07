@@ -11,7 +11,7 @@ h2{
 }
 h3{
   font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
+  font-size: 1rem;
   color: #66BFBF;
 }
 body {
@@ -30,13 +30,6 @@ body {
   padding-top: 100px;
 }
 
-.middle {
-}
-
-.bottom {
-
-}
-
 .cloud1 {
   position: absolute;
   right: 100px;
@@ -46,4 +39,46 @@ body {
 .cloud2 {
   position: absolute;
   left: 100px;
+}
+
+.middle {
+
+}
+.skill-row{
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+}
+
+.webimg {
+  width: 20%;
+  height: auto;
+  float: left;
+  margin-right: 30px;
+  margin-top: 45px;
+}
+
+.chillies {
+  width: 20%;
+  height: auto;
+  float: right;
+  margin-left: 30px;
+}
+
+.tooltip {
+position:relative;
+margin: 0 auto;
+bottom:30px;
+left:0px;
+size: 8px;
+visibility:hidden;
+}
+
+#wrapper:hover .tooltip {
+visibility:visible;
+}
+
+
+.bottom {
+
 }
