@@ -82,19 +82,28 @@ a:hover {
   margin-top: 45px;
 }
 
-.eng {
+.engineering {
   width: 20%;
   height: auto;
   float: right;
   margin-left: 30px;
 }
 
-.tooltip {
+.tooltip1 {
 position:relative;
 margin: 0 auto;
 bottom:30px;
 left:0px;
-size: 8px;
+font-size: 8px;
+visibility:hidden;
+}
+
+.tooltip2 {
+position:relative;
+margin: auto;
+bottom: 0px;
+left:0px;
+font-size: 8px;
 visibility:hidden;
 }
 
